@@ -1,0 +1,193 @@
+{
+  "categorias": [
+    {
+      "titulo": "TLOZ Twilight Princess HD",
+      "link": "https://www.youtube.com/playlist?list=PL9zeR-NhuO2-xG9qSxGDMaxYdgGZWMn_F",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Série completa do Zelda Twilight Princess HD",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO2-xG9qSxGDMaxYdgGZWMn_F"
+      },
+      "videos": [
+        {
+          "titulo": "Aquele com ordons, abelhas e estilingue!",
+          "url": "https://www.youtube.com/watch?v=wZ4U5BNLGt0&list=PL9zeR-NhuO2-xG9qSxGDMaxYdgGZWMn_F&index=2&t=0s"
+        },
+        {
+          "titulo": "Aquele com ordons, abelhas e estilingue!",
+          "url": "https://www.youtube.com/watch?v=wZ4U5BNLGt0&list=PL9zeR-NhuO2-xG9qSxGDMaxYdgGZWMn_F&index=2&t=0s"
+        },
+        {
+          "titulo": "Aquele com o resgate da floresta!",
+          "url": "https://www.youtube.com/watch?v=bmWHPzPZK9g&list=PL9zeR-NhuO2-xG9qSxGDMaxYdgGZWMn_F&index=2"
+        },
+        {
+          "titulo": "Aquele em Twilight!",
+          "url": "https://www.youtube.com/watch?v=7iN_mCDyLCA"
+        },
+        {
+          "titulo": "Aquele com o herói escolhido!",
+          "url": "https://www.youtube.com/watch?v=RC_9s7xTy8Q"
+        },
+        {
+          "titulo": "Aquele do Hero's Shade e o Lobo Dourado!",
+          "url": "https://www.youtube.com/watch?v=SjtM2y23ubU"
+        },
+        {
+          "titulo": "Aquele no Templo da Floresta! (Parte 1)",
+          "url": "https://www.youtube.com/watch?v=dQxohM5pimI"
+        },
+        {
+          "titulo": "Aquele no Templo da Floresta! (Parte 2)",
+          "url": "https://www.youtube.com/watch?v=0hMig5b55Rc"
+        }        
+      ]
+    },
+    {
+      "titulo": "Pokémon Leaf Green",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Série completa do Pokémon Leaf Green",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO2-GQadtfBstR6eONEEMsL6d"
+      },
+      "videos": [
+        {
+          "titulo": "Aquele primeiro",
+          "url": "https://www.youtube.com/watch?v=f8MDnht8Nio"
+        },
+        {
+          "titulo": "Aquele na floresta e o primeiro ginásio!",
+          "url": "https://www.youtube.com/watch?v=-NZlaKtpnNE"
+        },
+        {
+          "titulo": "Aquele com muito rage na caverna e evoluções!",
+          "url": "https://www.youtube.com/watch?v=CYp_yRvxW8s"
+        },
+        {
+          "titulo": "Aquele feito na pressa!",
+          "url": "https://www.youtube.com/watch?v=ydkD3AyV5cQ"
+        }, 
+        {
+          "titulo": "Aquele super produtivo!",
+          "url": "https://www.youtube.com/watch?v=dtYTW2OV_P4"
+        }
+      ]
+    },
+    {
+      "titulo": "A Lenda do Herói",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Série completa da Lenda do Herói",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO29yd_GqzAS4IK4zsP1FA0x8"
+      },
+      "videos": [
+        {
+          "titulo": "Colinas Verdejantes",
+          "url": "https://www.youtube.com/watch?v=RrMio0668ls&t=1s"
+        },
+        {
+          "titulo": "Colinas não tão Verdejantes",
+          "url": "https://www.youtube.com/watch?v=hi0ciqlGK3o"
+        },
+        {
+          "titulo": "Fortaleza Peçonhenta",
+          "url": "https://www.youtube.com/watch?v=nTr434iXGWM"
+        },
+        {
+          "titulo": "Floresta de Bosk",
+          "url": "https://www.youtube.com/watch?v=TpM-gnm3vtc"
+        }
+      ]
+    },
+    {
+      "titulo": "My Hero One's Justice",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Série completa de My Hero One's Justice",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO2_XMEM1jrPCyx0BbQNkVpiE"
+      },
+      "videos": [
+        {
+          "titulo": "Aquele controlando o One for All!",
+          "url": "https://www.youtube.com/watch?v=Rt4NPABQvKY&t=2s"
+        },
+        {
+          "titulo": "Aquele com o Legado de Ingenium!",
+          "url": "https://www.youtube.com/watch?v=u0fOf7e8gU0"
+        },
+        {
+          "titulo": "Aquele do treinamento e início de provas práticas!",
+          "url": "https://www.youtube.com/watch?v=lzp-u6l1ijM"
+        },
+        {
+          "titulo": "Aquele Terminando as provas práticas!",
+          "url": "https://www.youtube.com/watch?v=5GtYcvsgTf8"
+        },
+        {
+          "titulo": "Aquele do treinamento extra!",
+          "url": "https://www.youtube.com/watch?v=NJsX7oACAss"
+        }
+      ]
+    },
+    {
+      "titulo": "Overwatch - Abrindo Loot Box",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Série abrindo loot boxes no Overwatch",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO285e-QRAwQWRXSaSsZ7zOE7"
+      },
+      "videos": [
+        {
+          "titulo": "Aquele abrindo 11 loot boxes | EU ESTOU MUITO FELIZ!!! | Overwatch Uprising (Archives 2017)",
+          "url": "https://www.youtube.com/watch?v=MjWoWHY4KQQ"
+        },
+        {
+          "titulo": "Aquele abrindo 52 Loot Boxes - Overwatch Winter Wonderland 2018 - Parte 01 (ft. Emeritus)",
+          "url": "https://www.youtube.com/watch?v=w75UbSYs1sI"
+        },
+        {
+          "titulo": "Aquele abrindo 52 Loot Boxes - Overwatch Winter Wonderland 2018 - Parte 02 (ft. Emeritus e Vincent)",
+          "url": "https://www.youtube.com/watch?v=FPwkIDeYYQo"
+        },
+        {
+          "titulo": "Aquele abrindo 20 Loot Boxes - Overwatch Winter Wonderland 2018 - Parte EXTRA!!",
+          "url": "https://www.youtube.com/watch?v=gh8imTayUf4"
+        },
+        {
+          "titulo": "Aquele abrindo 35 Loot Boxes - Overwatch Summer Games 2019 - ft. Emeritus e Vincent",
+          "url": "https://www.youtube.com/watch?v=MBOpbGuSFf4"
+        }
+      ]
+    },
+    {
+      "titulo": "Variados",
+      "cor": "#A02EA8",
+      "link_extra": {
+        "text": "Vídeos Variados",
+        "url": "https://www.youtube.com/playlist?list=PL9zeR-NhuO29fll-jYWxCBFwdsdGbYArp"
+      },
+      "videos": [
+        {
+          "titulo": "Oi sumida kk",
+          "url": "https://www.youtube.com/watch?v=ypk99i9FxzU"
+        },
+        {
+          "titulo": "Meet the Climber #01 - Vida pessoal",
+          "url": "https://www.youtube.com/watch?v=Jw9D5fYN0og&t=3s"
+        },
+        {
+          "titulo": "Aquele que vou me arrepender de ter postado | Vlog #01",
+          "url": "https://www.youtube.com/watch?v=0jIlAYemjMQ&t=94s"
+        },
+        {
+          "titulo": "O PATO IDIOTA DO BATTLEBLOCK THEATER!",
+          "url": "https://www.youtube.com/watch?v=fvAHU5QCcBA"
+        },
+        {
+          "titulo": "OUTRO PATO IDIOTA DO BATTLEBLOCK THEATER",
+          "url": "https://www.youtube.com/watch?v=r3wuZm6lBno"
+        }
+      ]
+    }
+  ]
+}
