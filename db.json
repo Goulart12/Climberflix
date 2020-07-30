@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front End",
+            "descricao": "Uma categoria Show",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
