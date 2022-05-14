@@ -30,79 +30,86 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    if(window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias'; 
-      fetch(URL)
-       .then(async (respostaDoServer) =>{
-        if(respostaDoServer.ok) {
+    const URL = window.location.href.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://climberflix.herokuapp.com/categorias';
+    fetch(URL)
+      .then(async (respostaDoServer) => {
+        if (respostaDoServer.ok) {
           const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return; 
+          setCategorias([
+            ...resposta,
+          ]);
         }
         throw new Error('Não foi possível pegar os dados');
-       })
-    }    
+      })
   }, []);
 
   return (
-    
-      <PageDefault>
-        <h1>
-          Cadastro de Categoria:
-          {values.nome}
-        </h1>
 
-        <form onSubmit={function handleSubmit(infosDoEvento) {
-          infosDoEvento.preventDefault();
-          setCategorias([
-            ...categorias, values,
-          ]);
+    <PageDefault>
+      <h1>
+        Cadastro de Categoria:
+        {values.nome}
+      </h1>
 
-          setValues(valoresIniciais);
-        }}
-        >
-          <FormField
-            label="Nome da Categoria"
-            type="text"
-            name="nome"
-            value={values.nome}
-            onChange={handleChange}
-          />
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
+        setCategorias([
+          ...categorias, values,
+        ]);
 
-          <FormField
-            label="Descrição"
-            type="textarea"
-            name="descricao"
-            value={values.descricao}
-            onChange={handleChange}
-          />
+        setValues(valoresIniciais);
+      }}
+      >
+        <FormField
+          label="Nome da Categoria"
+          type="text"
+          name="nome"
+          value={values.nome}
+          onChange={handleChange}
+        />
 
-          <FormField
-            label="Cor"
-            type="color"
-            name="cor"
-            value={values.cor}
-            onChange={handleChange}
-          />
+        <FormField
+          label="Descrição"
+          type="textarea"
+          name="descricao"
+          value={values.descricao}
+          onChange={handleChange}
+        />
 
-          <Button>
-            Cadastrar
-          </Button>
-        </form>
+        <FormField
+          label="Cor"
+          type="color"
+          name="cor"
+          value={values.cor}
+          onChange={handleChange}
+        />
 
-        <ul>
-          {categorias.map((categoria) => (
-            <li key={`${categoria.nome}`}>
-              {categoria.nome}
-            </li>
-          ))}
-        </ul>
+        <Button>
+          Cadastrar
+        </Button>
+      </form>
 
-        <Link to="/">
-          Ir para a home
-        </Link>
-      </PageDefault>
-    
+      {categorias.length === 0 && (
+        <div>
+          Loading ...
+        </div>
+      )}
+
+      <ul>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.nome}`}>
+            {categoria.nome}
+          </li>
+        ))}
+      </ul>
+
+      <Link to="/">
+        Ir para a home
+      </Link>
+    </PageDefault>
+
   );
 }
 
